@@ -15,14 +15,14 @@ This project fine-tunes the `GPT-2` language model on a short, custom instructio
 ## 📂 Project Structure
 
 my-llm-app/
-├── app.py # Streamlit app
-├── requirements.txt # Required Python libraries
-└── llm-finetuned/ # Fine-tuned model directory
-├── config.json
-├── pytorch_model.bin
-├── tokenizer_config.json
-├── tokenizer.json
-└── vocab.json
+- ├── app.py # Streamlit app
+- ├── requirements.txt # Required Python libraries
+- └── llm-finetuned/ # Fine-tuned model directory
+- ├── config.json
+- ├── pytorch_model.bin
+- ├── tokenizer_config.json
+- ├── tokenizer.json
+- └── vocab.json
 
 ---
 
@@ -30,8 +30,8 @@ my-llm-app/
 
 1. **Train model in Colab** and save `llm-finetuned/`
 2. **Push all files to GitHub**
-3. **Deploy on [Streamlit Cloud](https://streamlit.io/cloud)**:
-   - Repo: your GitHub repo
+3. **Deploy on : https://myllmapp-gpt2.streamlit.app/**:
+   - Repo: https://github.com/ifrazaib/MyllmApp
    - File: `app.py`
 
 ---
